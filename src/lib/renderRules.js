@@ -1,15 +1,15 @@
 import React from 'react';
 import {
+  Image,
+  Platform,
+  StyleSheet,
   Text,
   TouchableWithoutFeedback,
   View,
-  Platform,
-  StyleSheet,
 } from 'react-native';
-import FitImage from 'react-native-fit-image';
 
-import openUrl from './util/openUrl';
 import hasParents from './util/hasParents';
+import openUrl from './util/openUrl';
 
 import textStyleProps from './data/textStyleProps';
 
@@ -296,7 +296,7 @@ const renderRules = {
       imageProps.accessibilityLabel = alt;
     }
 
-    return <FitImage {...imageProps} />;
+    return <Image {...imageProps} />;
   },
 
   // Text Output

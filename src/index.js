@@ -17,7 +17,6 @@ import MarkdownIt from 'markdown-it';
 import removeTextStyleProps from './lib/util/removeTextStyleProps';
 import {styles} from './lib/styles';
 import {stringToTokens} from './lib/util/stringToTokens';
-import FitImage from 'react-native-fit-image';
 import textStyleProps from './lib/data/textStyleProps';
 
 export {
@@ -32,7 +31,6 @@ export {
   MarkdownIt,
   styles,
   removeTextStyleProps,
-  FitImage,
   textStyleProps,
 };
 
